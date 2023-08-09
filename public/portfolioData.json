@@ -1,0 +1,144 @@
+{
+  "pages": {
+    "home": {
+      "title": "Transforming Vision into Digital Reality with Code & Design",
+      "content": "Full-Stack JavaScript Developer | React, Node.js, MongoDB Creating Engaging Web Experiences with HTML, CSS, and JS Passionate about Building Scalable Solutions and User-Centric Design.",
+      "meta": {
+        "title": "Home | My Portfolio",
+        "description": "Welcome to my portfolio homepage. Explore my skills, experience, and achievements in web development."
+      }
+    },
+    "about": {
+      "title": "Passion ignites purpose",
+      "content": " Passionate about full-stack development, I have gained extensive experience working on numerous projects throughout my career. Currently, I am dedicated to developing the Pizza Hut Progressive Web App (PWA) for Gulf countries. Recently, I successfully contributed to the development of the KFC PWA, catering to major countries such as UAE, KSA, Egypt, and Jordan.",
+      "content2": " In my past experiences, I had the opportunity to work with Earthlink.net, the second-largest internet service provider in the USA, where I honed my skills and expertise. Additionally, my portfolio includes various projects related to the food industry, such as Food Haven and many more.",
+      "content3": "As a full-stack developer, I focus on solving problems and crafting user-centric experiences, combining innovative solutions with robust architectures.",
+      "meta": {
+        "title": "About | My Portfolio",
+        "description": "Learn more about me, a full-stack web developer. Discover my skills, experience, and passion for creating user-friendly web applications.",
+        "keywords": [
+          "about",
+          "web developer",
+          "full-stack",
+          "front-end",
+          "back-end",
+          "web applications"
+        ]
+      }
+    },
+    "articles": {
+      "title": "Articles",
+      "slug": "articles",
+      "content": "Read my latest articles on web development, technology trends, and best practices. Stay updated with industry insights and expand your knowledge.",
+      "meta": {
+        "title": "Articles | My Portfolio",
+        "description": "Browse through my collection of articles on web development, technology trends, and best practices. Stay informed and broaden your knowledge.",
+        "keywords": [
+          "articles",
+          "blog",
+          "web development",
+          "technology",
+          "best practices",
+          "industry insights"
+        ]
+      }
+    },
+    "skillsData": [
+      { "name": "Firebase", "x": "-28vw", "y": "12vw" },
+      { "name": "PhotoShop", "x": "-32vw", "y": "-5vw" },
+      { "name": "Javascript", "x": "20vw", "y": "-12vw" },
+      { "name": "React JS", "x": "0vw", "y": "8vw" },
+      { "name": "React Native", "x": "-22vw", "y": "-30vw" },
+      { "name": "Next JS", "x": "32vw", "y": "-5vw" },
+      { "name": "Node JS", "x": "0vw", "y": "18vw" },
+      { "name": "Mongodb", "x": "-20vw", "y": "6vw" },
+      { "name": "Tailwind", "x": "30vw", "y": "12vw" },
+      { "name": "HTML", "x": "1vw", "y": "-20vw" },
+      { "name": "CSS", "x": "-15vw", "y": "-12vw" },
+      { "name": "Graphql", "x": "29vw", "y": "-20vw" },
+      { "name": "AWS", "x": "2vw", "y": "-32vw" },
+      { "name": "TypeScript", "x": "-28vw", "y": "-20vw" },
+      { "name": "ExpressJS", "x": "18vw", "y": "-29vw" },
+      { "name": "Postgres", "x": "28vw", "y": "4vw" }
+    ],
+    "educations": {
+      "school": {
+        "place": "Govt. Senior secondary Modal School BASDEHRA (H.P.B.O.S.E)",
+        "year": "2010-2012",
+        "info": "I completed my 10+2 education with a non-medical focus, equipping me with a strong foundation in subjects such as mathematics, physics, and chemistry, which has greatly contributed to my analytical and problem-solving skills"
+      },
+      "college": {
+        "place": "Govt. Polytechnic College HAMIRPUR (H.P.T.S.B)",
+        "year": "2013-2016",
+        "info": "Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Operating System, CAM etc."
+      },
+      "graduation": {
+        "place": "Institute of Engineering India (IEI)",
+        "year": "2017-2020",
+        "info": "Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial Intelligence and Microprocessor."
+      }
+    },
+    "experience": {
+      "fresher": {
+        "position": "Software Engineer",
+        "company": "Innow8 Apps",
+        "companyLink": "https://innow8apps.com",
+        "time": "2019-2019",
+        "address": "Bestech Business Tower, Mohali",
+        "work": "At Innow8 apps, my fresher work experience revolved around projects utilizing Node.js, React, React Native, and AWS. It provided valuable insights into full-stack development and cloud-based solutions, fostering collaborative efforts to deliver efficient and user-centric applications"
+      },
+      "developer": {
+        "position": "Full Stack Developer",
+        "company": "DigiMantra Labs",
+        "companyLink": "https://digimantralabs.com/",
+        "time": "2020-2022",
+        "address": "#204 Atrium Tower, Phase 8b Mohali(PB)",
+        "work": "At Digimantra Labs, I worked as a full stack developer on USA-based client projects for Earthlink.net, gaining over two years of experience. I contributed to building and delivering web applications, honing my skills in front-end and back-end technologies, and focusing on scalable and user-centric solutions"
+      },
+      "seniorDev": {
+        "position": "Sr. Full Stack Developer",
+        "company": "Appinventiv",
+        "companyLink": "https://appinventiv.com/",
+        "time": "2022-present",
+        "address": "World tech Tower, Sector-67 Mohali(PB)",
+        "work": "Since 2022, at Appinventiv, I have been working with Americana Food Organisation, a prominent client from UAE. My responsibilities have involved working on diverse projects for renowned brands such as KFC, Pizza Hut, Krispy Kreme, Hardee's, and Wimpy. This experience has allowed me to contribute to high-profile projects and strengthen my expertise in delivering top-notch solutions for the food industry."
+      }
+    },
+    "projects": {
+      "title": "Projects",
+      "slug": "projects",
+      "content": "Check out some of my featured projects. Each project showcases my technical skills, creativity, and problem-solving abilities.",
+      "meta": {
+        "title": "Projects | My Portfolio",
+        "description": "Explore my portfolio of featured projects. Witness my technical skills, creativity, and problem-solving abilities in action.",
+        "keywords": [
+          "projects",
+          "portfolio",
+          "web development",
+          "featured projects",
+          "skills",
+          "creativity"
+        ]
+      },
+      "innow8": {
+        "type": "Software Engineer",
+        "title": "Innow8 Apps",
+        "link": "https://innow8apps.com",
+        "description": "At Innow8 apps, my fresher work experience revolved around projects utilizing Node.js, React, React Native, and AWS. It provided valuable insights into full-stack development and cloud-based solutions, fostering collaborative efforts to deliver efficient and user-centric applications"
+      },
+      "digimantra": {
+        "type": "Full Stack Developer",
+        "title": "DigiMantra Labs",
+        "link": "https://digimantralabs.com/",
+        "description": "At Digimantra Labs, I worked as a full stack developer on USA-based client projects for Earthlink.net, gaining over two years of experience. I contributed to building and delivering web applications, honing my skills in front-end and back-end technologies, and focusing on scalable and user-centric solutions"
+      },
+      "appinventiv": {
+        "type": "Full Stack Developer",
+        "title": "DigiMantra Labs",
+        "link": "https://digimantralabs.com/",
+        "description": ""
+      }
+    }
+  }
+
+}

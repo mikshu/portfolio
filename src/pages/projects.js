@@ -169,7 +169,7 @@ const projects = () => {
                 github="/"
               />
             </div>
-            <div className="col-span-6 sm:col-span-12">
+            {/* <div className="col-span-6 sm:col-span-12">
             <FeaturedProject
                 title="EarthLink Internet Provider"
                 summary="During my rewarding tenure of over 2 years at Earthlink, I had the privilege of engaging in a dynamic array of projects that showcased the intersection of innovation and technology. As an integral part of the team, I actively contributed to the development of significant initiatives such as the Agent Console, VAS solutions, Earthlink Gmail integration, and the creation of a compelling portfolio."
@@ -178,7 +178,7 @@ const projects = () => {
                 img={earthlink}
                 github="/"
               />
-            </div>
+            </div> */}
             <div className="col-span-6 sm:col-span-12">
             <FeaturedProject
                 title="FoodClub App"

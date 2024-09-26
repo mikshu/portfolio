@@ -17,7 +17,11 @@ const CustomLink = ({ href, title, className }) => {
   const router = useRouter();
 
   return (
-    <Link href={href} className={`${className} text-lightColor dark:text-darkColor relative group`} passHref>
+    <Link
+      href={href}
+      className={`${className} text-lightColor dark:text-darkColor relative group`}
+      passHref
+    >
       {title}
       <span
         className={`h-[1px] inline-block  bg-dark absolute left-0 -bottom-0.5
@@ -59,7 +63,7 @@ function NavBar() {
 
   const handleToggle = () => {
     setMode(mode === "dark" ? "light" : "dark");
-    setOpen(pre => false);
+    setOpen((pre) => false);
   };
   const [iseOpen, setOpen] = useState(false);
 
@@ -96,7 +100,7 @@ function NavBar() {
         </nav>
 
         <nav className="flex items-center justify-center flex-wrap mt-2">
-          <motion.a
+          {/* <motion.a
             target="_blank"
             rel="noopener noreferrer"
             href="https://example.com"
@@ -105,7 +109,7 @@ function NavBar() {
             whileTap={{ scale: 0.9 }}
           >
             <TwitterIcon />
-          </motion.a>
+          </motion.a> */}
           <motion.a
             target="_blank"
             rel="noopener noreferrer"
@@ -124,13 +128,15 @@ function NavBar() {
             className="w-6 ml-3 sm:mx-1"
             whileTap={{ scale: 0.9 }}
           >
-            <LinkedInIcon  />
+            <LinkedInIcon />
           </motion.a>
 
           <button
             onClick={handleToggle}
             className={`ml-3 flex items-center justify-center rounded-full p-1 ${
-              mode === "light" ? "bg-light text-lightColor" : "bg-dark text-lightColor"
+              mode === "light"
+                ? "bg-light text-lightColor"
+                : "bg-dark text-lightColor"
             }`}
           >
             {mode === "dark" ? (
@@ -194,7 +200,7 @@ function NavBar() {
               className="w-6 mx-3"
               whileTap={{ scale: 0.9 }}
             >
-              <GithubIcon mode={mode}/>
+              <GithubIcon mode={mode} />
             </motion.a>
             <motion.a
               target="_blank"
@@ -210,7 +216,9 @@ function NavBar() {
             <button
               onClick={handleToggle}
               className={`ml-3 flex items-center justify-center rounded-full p-1 ${
-                mode === "light" ? "bg-dark text-lightColor" : "bg-light text-lightColor"
+                mode === "light"
+                  ? "bg-dark text-lightColor"
+                  : "bg-light text-lightColor"
               }`}
             >
               {mode === "dark" ? (

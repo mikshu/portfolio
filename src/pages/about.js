@@ -12,9 +12,7 @@ import Education from "@/components/Education";
 import TransitionEffect from "@/components/TransitionEffect";
 import portfolioData from "../../public/portfolioData.json";
 
-
 const AnimatedNumbers = ({ value }) => {
-  
   const ref = useRef(null);
   const motionValue = useMotionValue(0);
   const springValue = useSpring(motionValue, { duration: 3000 });
@@ -42,26 +40,32 @@ function about() {
     <>
       <Head>
         <title>Aatish | About Page</title>
-        <meta name={aboutData.meta.title} content={aboutData.meta.description} />
+        <meta
+          name={aboutData.meta.title}
+          content={aboutData.meta.description}
+        />
         <meta name="keywords" content={aboutData.meta.keywords} />
       </Head>
       <TransitionEffect />
       <main className="flex w-full flex-col items-center justify-center dark:text-light">
         <Layout className="pt-16">
-          <AnimatedText title={aboutData.title} className="mb-16 lg:!text-7xl sm:!text-6xl xs: !text-4xl sm:mb-8 text-lightColor dark:text-darkColor" />
+          <AnimatedText
+            title={aboutData.title}
+            className="mb-16 lg:!text-7xl sm:!text-6xl xs: !text-4xl sm:mb-8 text-lightColor dark:text-darkColor"
+          />
           <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
             <div className="col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8">
               <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-darkColor/75">
                 Biography
               </h2>
               <p className="font-medium text-lightColor dark:text-darkColor">
-               {aboutData.content}
+                {aboutData.content}
               </p>
               <p className="font-medium my-4 text-lightColor dark:text-darkColor">
-              {aboutData.content2}
+                {aboutData.content2}
               </p>
               <p className="font-medium text-lightColor dark:text-darkColor">
-              {aboutData.content3}
+                {aboutData.content3}
               </p>
             </div>
             <div className="col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8 dark:bg-lightColor/75 dark:border-light xl:col-span-4 md:order-1 md:col-span-8">
@@ -93,7 +97,7 @@ function about() {
               </div>
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl  text-lightColor dark:text-darkColor">
-                  <AnimatedNumbers value={4} />+
+                  <AnimatedNumbers value={5} />+
                 </span>
                 <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-base">
                   Years of experience

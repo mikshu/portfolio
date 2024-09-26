@@ -9,10 +9,9 @@ import { motion } from "framer-motion";
 
 import kfc from "../../public/images/projects/kfc.png";
 import phd from "../../public/images/projects/pizzahut.png";
-import earthlink from "../../public/images/projects/earthlink.png";
-import foodclub from "../../public/images/projects/foodclub.jpg";
+import foodClub from "../../public/images/projects/foodclub.jpg";
+import usMedPic from "../../public/images/projects/us-med.png";
 import portfolioData from "../../public/portfolioData.json";
-
 
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -55,7 +54,9 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
             {title}
           </h2>
         </Link>
-        <p className="my-2 font-medium text-lightColor/70 dark:text-light sm:text-sm">{summary}</p>
+        <p className="my-2 font-medium text-lightColor/70 dark:text-light sm:text-sm">
+          {summary}
+        </p>
 
         <div className="mt-2 flex item-center">
           <Link href={github} className="w-10" target="_blank" passHref>
@@ -127,10 +128,25 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
 
 const projects = () => {
   const projectData = portfolioData.pages.projects;
-  const {meta: {title, description, keywords}, innow8, digimantra, appinventiv } = projectData;
-  const {type, title:heading, link:LinkUrl, description:decp }=innow8;
-  const {type:dTyoe, title:dHeading, link:dLinkUrl, description:descp }=digimantra;
-  const {type:aType, title:aHeading, link:aLinkUrl, description:info }=appinventiv;
+  const {
+    meta: { title, description, keywords },
+    innow8,
+    digimantra,
+    appinventiv,
+  } = projectData;
+  const { type, title: heading, link: LinkUrl, description: decp } = innow8;
+  const {
+    type: dTyoe,
+    title: dHeading,
+    link: dLinkUrl,
+    description: descp,
+  } = digimantra;
+  const {
+    type: aType,
+    title: aHeading,
+    link: aLinkUrl,
+    description: info,
+  } = appinventiv;
 
   return (
     <>
@@ -169,24 +185,23 @@ const projects = () => {
                 github="/"
               />
             </div>
-            {/* <div className="col-span-6 sm:col-span-12">
-            <FeaturedProject
-                title="EarthLink Internet Provider"
-                summary="During my rewarding tenure of over 2 years at Earthlink, I had the privilege of engaging in a dynamic array of projects that showcased the intersection of innovation and technology. As an integral part of the team, I actively contributed to the development of significant initiatives such as the Agent Console, VAS solutions, Earthlink Gmail integration, and the creation of a compelling portfolio."
-                type="Featured Project"
-                link="https://www.earthlink.net/"
-                img={earthlink}
+            <div className="col-span-12">
+              <FeaturedProject
+                title="US Med Premium"
+                summary="As the Senior Project Lead, I developed an e-commerce platform for purchasing medicine, health equipment, and animal health products. Utilizing technologies like Next.js 14, Tailwind CSS, TypeScript, Radix UI, and Stripe, I created a responsive, secure, and user-friendly website. Key features include an extensive product catalog, user accounts for order tracking, and a seamless checkout process."
+                type="MED"
+                link="https://stg-usmed-next.appskeeper.in/"
+                img={usMedPic}
                 github="/"
               />
-            </div> */}
-            <div className="col-span-6 sm:col-span-12">
-            <FeaturedProject
+            </div>
+            <div className="col-span-12">
+              <FeaturedProject
                 title="FoodClub App"
-                summary=
-                "I contributed to the Food Club React Native app's development, a game-changer in Chandigarh's food scene. This app streamlined ordering from multiple restaurants on a single platform, offering unprecedented convenience. I also designed an admin portfolio, empowering restaurant owners to manage menus and orders seamlessly. This project honed my React Native skills and showcased tech's power in boosting local businesses and user experiences."
+                summary="I contributed to the Food Club React Native app's development, a game-changer in Chandigarh's food scene. This app streamlined ordering from multiple restaurants on a single platform, offering unprecedented convenience. I also designed an admin portfolio, empowering restaurant owners to manage menus and orders seamlessly. This project honed my React Native skills and showcased tech's power in boosting local businesses and user experiences."
                 type="Featured Project"
                 link="https://play.google.com/store/apps/details?id=com.onvo.foodclub&pli=1"
-                img={foodclub}
+                img={foodClub}
                 github="/"
               />
             </div>

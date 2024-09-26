@@ -1,6 +1,6 @@
 {
   "extends": "next/core-web-vitals",
   "rules": {
-    // "@next/next/no-script-in-document": "error"
+    "@next/next/no-script-in-document": "error"
   }
 }

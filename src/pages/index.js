@@ -39,12 +39,15 @@ const Home = () => {
                 className="!text-7xl !text-left xl:!text-5xl lg:!text-center lg:!text-7xl md:!text-5xl sm:!3xl text-lightColor/60 pb-2 leading-5"
                 style={{ lineHeight: 1.5 }}
               />
-              <p className="my-6 text-base font-medium text-dark dark:text-light md:text-sm sm:text-xs"   style={{ lineHeight: 1.8 }}>
+              <p
+                className="my-6 text-base font-medium text-dark dark:text-light md:text-sm sm:text-xs"
+                style={{ lineHeight: 1.8 }}
+              >
                 {homeData.content}
               </p>
               <div className="flex items-center self-start mt-2 lg:self-center">
                 <Link
-                  href="/dummy.pdf"
+                  href="/resume.pdf"
                   target="_blank"
                   className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark hover:border-dark border-2 border-solid border-transparent dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light hover:dark:border-light md:p-2 md:px-4 md:text-base"
                   download={true}

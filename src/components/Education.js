@@ -3,8 +3,7 @@ import { useRef } from "react";
 import LitIcon from "./LitIcon";
 import portfolioData from "../../public/portfolioData.json";
 
-
-const Details = ({ type, time, place, info }) => {
+const Details = ({ type, time = "", place = "", info = "" }) => {
   const ref = useRef();
   return (
     <li
@@ -17,11 +16,13 @@ const Details = ({ type, time, place, info }) => {
         whileHover={{ y: 0 }}
         transition={{ duration: 0.5, type: "spring" }}
       >
-        <h3 className="capitalize font-bold text-2xl sm:text-2xl xs:text-lg">{type}</h3>
+        <h3 className="capitalize font-bold text-2xl sm:text-2xl xs:text-lg">
+          {type}
+        </h3>
         <span className="capitalize font-medium text-dark/90 dark:text-light/90 xs:text-sm">
-          {time} | {place}
+          {time.trim()} | {place.trim()}
         </span>
-        <p className="font-medium w-full md:text-sm">{info}</p>
+        <p className="font-medium w-full md:text-sm">{info.trim()}</p>
       </motion.div>
     </li>
   );
@@ -36,7 +37,9 @@ function Education() {
   });
   return (
     <div className="my-64 md:my-28 sm:my-20">
-      <h2 className="font-bold text-8xl mb-32 w-full text-center md:text-6xl xs:text-4xl md:mb-6  text-dark/80 dark:text-lightColor">Education</h2>
+      <h2 className="font-bold text-8xl mb-32 w-full text-center md:text-6xl xs:text-4xl md:mb-6  text-dark/80 dark:text-lightColor">
+        Education
+      </h2>
       <div ref={ref} className="w-[75%] mx-auto relative lg:w-[90%] md:w-full">
         <motion.div
           style={{ scaleY: scrollYProgress }}

@@ -26,7 +26,7 @@ function Logo() {
           },
         }}
       >
-        JS
+        AI
       </MotionLink>
     </div>
   );

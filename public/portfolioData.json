@@ -1,143 +1,99 @@
 {
-  "pages": {
-    "home": {
-      "title": "Transforming Vision into Digital Reality with Code & Design",
-      "content": "Full-Stack JavaScript Developer | React, Next, Redux-Toolkit, Node.js, Express, MongoDB Creating Engaging Web Experiences with HTML, CSS, and JS Passionate about Building Scalable Solutions and User-Centric Design.",
-      "meta": {
-        "title": "Home | My Portfolio",
-        "description": "Welcome to my portfolio homepage. Explore my skills, experience, and achievements in web development."
-      }
+  "personal": {
+    "name": "Aatish Rana",
+    "role": "Senior Full-Stack Engineer",
+    "tagline": "Senior Full-Stack Engineer focused on building reliable, scalable web and AI products. I deliver end-to-end systems — database design and REST APIs to performant React frontends and production FastAPI services. Skilled in AWS deployments, containerized CI/CD, observability, and shipping LLM integrations that automate workflows and add product intelligence.",
+    "email": "minhasaatish@gmail.com",
+    "github": "https://github.com/minhasaatish",
+    "linkedin": "https://www.linkedin.com/in/aatish-rana-4870b6134/"
+  },
+  "skills": {
+    "Frontend": ["React.js", "Next.js", "TypeScript", "Tailwind CSS", "Redux", "Material UI", "Context API", "PWA"],
+    "Backend": ["Node.js", "Express.js", "FastAPI", "Python", "REST API Design", "Background Jobs", "Redis"],
+    "Databases": ["PostgreSQL", "MongoDB", "MySQL", "Data Modelling", "Query Optimisation"],
+    "Cloud & DevOps": ["AWS (EC2, S3, Lambda)", "Docker", "CI/CD", "Infrastructure Rightsizing", "AWS Inspector"],
+    "Testing & Security": ["Jest", "Mocha", "Chai", "SonarQube", "Security Scanning"],
+    "AI & Automation": ["GPT-4", "Claude", "Gemini", "RAG Pipelines", "Prompt Engineering"]
+  },
+  "experience": [
+    {
+      "position": "Senior Software Engineer",
+      "company": "LeewayHertz (A Hackett Group Company)",
+      "companyLink": "https://www.leewayhertz.com/",
+      "time": "Dec 2024 – Present",
+      "work": "Built production React frontends and FastAPI backends for AI document platforms (Quantadoc, ZBRAIN). Engineered semantic retrieval and LLM orchestration, optimised vector retrieval and API pipelines (15–20% latency reduction), resolved AWS Inspector findings, and established test and CI/CD practices."
     },
-    "about": {
-      "title": "Passion ignites purpose",
-      "content": " I am passionate about full-stack development with extensive experience across various projects. Currently, I am focused on developing the Pizza Hut Progressive Web App (PWA) for Gulf countries. Recently, I contributed to the KFC PWA, serving major markets such as the UAE, KSA, Egypt, and Jordan. My portfolio includes the US Medicine Premium web app (e-commerce platform), Accosis (Finance web), and experience at Earthlink.net.  As a full-stack developer, I prioritize problem-solving and user-centric experiences, utilizing technologies such as React, Next.js,Redux, Redux-toolkit, Context-Api, Tailwind CSS, TypeScript, Radix UI, Node.js, NestJS, MongoDB, and Stripe. My diverse work in the food industry, including projects like Food Haven, reflects my commitment to delivering high-quality applications.",
-      "content2": " In my past experiences, I had the opportunity to work with Earthlink.net, the second-largest internet service provider in the USA, where I honed my skills and expertise. Additionally, my portfolio includes various projects related to the food industry, such as Food Haven and many more.",
-      "content3": "As a full-stack developer, I focus on solving problems and crafting user-centric experiences, combining innovative solutions with robust architectures.",
-      "meta": {
-        "title": "About | My Portfolio",
-        "description": "Learn more about me, a full-stack web developer. Discover my skills, experience, and passion for creating user-friendly web applications.",
-        "keywords": [
-          "about",
-          "web developer",
-          "full-stack",
-          "front-end",
-          "back-end",
-          "web applications"
-        ]
-      }
+    {
+      "position": "Senior Full Stack Developer",
+      "company": "Appinventiv",
+      "companyLink": "https://appinventiv.com/",
+      "time": "Apr 2022 – Sep 2024",
+      "work": "Owned end-to-end delivery for 5+ enterprise web products (React, Next.js, TypeScript, Node.js). Engineered high-performance frontends and scalable REST APIs, reduced page load times (~30%), and managed AWS Docker deployments and CI/CD for zero-downtime releases."
     },
-    "articles": {
-      "title": "Articles",
-      "slug": "articles",
-      "content": "Read my latest articles on web development, technology trends, and best practices. Stay updated with industry insights and expand your knowledge.",
-      "meta": {
-        "title": "Articles | My Portfolio",
-        "description": "Browse through my collection of articles on web development, technology trends, and best practices. Stay informed and broaden your knowledge.",
-        "keywords": [
-          "articles",
-          "blog",
-          "web development",
-          "technology",
-          "best practices",
-          "industry insights"
-        ]
-      }
-    },
-    "skillsData": [
-      { "name": "Redux-Toolkit", "x": "-28vw", "y": "12vw" },
-      { "name": "NestJS", "x": "-32vw", "y": "-5vw" },
-      { "name": "Javascript", "x": "20vw", "y": "-12vw" },
-      { "name": "React JS", "x": "0vw", "y": "8vw" },
-      { "name": "React Native", "x": "-22vw", "y": "-30vw" },
-      { "name": "Next JS", "x": "32vw", "y": "-5vw" },
-      { "name": "Node JS", "x": "0vw", "y": "18vw" },
-      { "name": "Mongodb", "x": "-20vw", "y": "6vw" },
-      { "name": "Tailwind", "x": "30vw", "y": "12vw" },
-      { "name": "HTML", "x": "1vw", "y": "-20vw" },
-      { "name": "CSS", "x": "-15vw", "y": "-12vw" },
-      { "name": "Graphql", "x": "29vw", "y": "-20vw" },
-      { "name": "AWS(S3)", "x": "2vw", "y": "-32vw" },
-      { "name": "TypeScript", "x": "-28vw", "y": "-20vw" },
-      { "name": "ExpressJS", "x": "18vw", "y": "-29vw" },
-      { "name": "Postgres", "x": "28vw", "y": "4vw" }
-    ],
-    "educations": {
-      "school": {
-        "place": "Govt. Senior secondary Modal School BASDEHRA (H.P.B.O.S.E)",
-        "time": "2010-2012",
-        "info": "I completed my 10+2 education with a non-medical focus, equipping me with a strong foundation in subjects such as mathematics, physics, and chemistry, which has greatly contributed to my analytical and problem-solving skills"
-      },
-      "college": {
-        "place": "Govt. Polytechnic College HAMIRPUR (H.P.T.S.B)",
-        "time": "2013-2016",
-        "info": "Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Operating System, CAM etc."
-      },
-      "graduation": {
-        "place": "Indira Gandhi Institute of Technology and Management",
-        "time ": "2016-2019",
-        "info": "Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial Intelligence and Microprocessor."
-      }
-    },
-    "experience": {
-      "seniorDev": {
-        "position": "Sr. Full Stack Developer",
-        "company": "Appinventiv",
-        "companyLink": "https://appinventiv.com/",
-        "time": "2022-2024",
-        "address": "World tech Tower, Sector-67 Mohali(PB)",
-        "work": "Since 2022, at Appinventiv, I have been working with Americana Food Organisation, a prominent client from UAE. My responsibilities have involved working on diverse projects for renowned brands such as KFC, Pizza Hut, Krispy Kreme, Hardee's, and Wimpy. This experience has allowed me to contribute to high-profile projects and strengthen my expertise in delivering top-notch solutions for the food industry."
-      },
-      "developer": {
-        "position": "Full Stack Developer",
-        "company": "DigiMantra Labs",
-        "companyLink": "https://digimantralabs.com/",
-        "time": "2020-2022",
-        "address": "#204 Atrium Tower, Phase 8b Mohali(PB)",
-        "work": "At Digimantra Labs, I worked as a full stack developer on USA-based client projects for Earthlink.net, gaining over two years of experience. I contributed to building and delivering web applications, honing my skills in front-end and back-end technologies, and focusing on scalable and user-centric solutions"
-      },
-      "fresher": {
-        "position": "Software Engineer Trainee",
-        "company": "Innow8 Apps",
-        "companyLink": "https://innow8apps.com",
-        "time": "2019-2019",
-        "address": "Bestech Business Tower, Mohali",
-        "work": "At Innow8 apps, my fresher work experience revolved around projects utilizing Node.js, React, React Native, and AWS. It provided valuable insights into full-stack development and cloud-based solutions, fostering collaborative efforts to deliver efficient and user-centric applications"
-      }
-    },
-    "projects": {
-      "title": "Projects",
-      "slug": "projects",
-      "content": "Check out some of my featured projects. Each project showcases my technical skills, creativity, and problem-solving abilities.",
-      "meta": {
-        "title": "Projects | My Portfolio",
-        "description": "Explore my portfolio of featured projects. Witness my technical skills, creativity, and problem-solving abilities in action.",
-        "keywords": [
-          "projects",
-          "portfolio",
-          "web development",
-          "featured projects",
-          "skills",
-          "creativity"
-        ]
-      },
-      "innow8": {
-        "type": "Software Engineer",
-        "title": "Innow8 Apps",
-        "link": "https://innow8apps.com",
-        "description": "At Innow8 apps, my fresher work experience revolved around projects utilizing Node.js, React, React Native, and AWS. It provided valuable insights into full-stack development and cloud-based solutions, fostering collaborative efforts to deliver efficient and user-centric applications"
-      },
-      "digimantra": {
-        "type": "Full Stack Developer",
-        "title": "DigiMantra Labs",
-        "link": "https://digimantralabs.com/",
-        "description": "At Digimantra Labs, I worked as a full stack developer on USA-based client projects for Earthlink.net, gaining over two years of experience. I contributed to building and delivering web applications, honing my skills in front-end and back-end technologies, and focusing on scalable and user-centric solutions"
-      },
-      "appinventiv": {
-        "type": "Full Stack Developer",
-        "title": "DigiMantra Labs",
-        "link": "https://digimantralabs.com/",
-        "description": ""
-      }
+    {
+      "position": "Full Stack Developer",
+      "company": "DigiMantra Labs",
+      "companyLink": "https://digimantralabs.com/",
+      "time": "Jan 2020 – Mar 2022",
+      "work": "Led delivery of client web projects, built responsive React frontends and Node.js REST APIs, optimised component and render performance (~20% page render improvements), managed AWS deployments, and mentored junior engineers."
     }
-  }
+    ,
+    {
+      "position": "Trainee Web Developer",
+      "company": "Innow8 Apps",
+      "companyLink": "",
+      "time": "May 2019 – Dec 2019",
+      "work": "Built REST API endpoints with Node.js/MongoDB and React/Redux UI modules; delivered admin portals and improved internal workflows."
+    }
+  ],
+  "projects": [
+    {
+      "type": "Document AI",
+      "title": "ZBRAIN AI Platform",
+      "summary": "AI-first document interaction platform enabling semantic search, question-answering over documents, and interactive workflows driven by LLMs. Implemented scalable ingestion pipelines, vector store indexing, prompt orchestration, and performant React interfaces for enterprise users.",
+      "tech": "FastAPI, PostgreSQL, Vector DB, React, LLMs"
+    },
+    {
+      "type": "AI Workflow",
+      "title": "HRJD Builder",
+      "summary": "Recruiting automation platform that uses LLMs to parse resumes, generate job descriptions, and match candidates. Built backend orchestration for large-scale document processing, templated output generation, and admin tooling for HR teams.",
+      "tech": "Python, FastAPI, PostgreSQL, React, LLM Integration"
+    },
+    {
+      "type": "Enterprise PWA",
+      "title": "KFC Gulf PWA",
+      "summary": "Ordering PWA for multiple Gulf countries — real-time orders, secure payments, loyalty features, and localized UX optimisations for high-traffic daily usage.",
+      "tech": "React, Next.js, Node.js, TypeScript"
+    },
+    {
+      "type": "Enterprise PWA",
+      "title": "Pizza Hut Gulf PWA",
+      "summary": "PWA with loyalty integration, multi-region checkout flows, and performance tuning for low-latency ordering experiences.",
+      "tech": "React, Next.js, Node.js, Stripe"
+    },
+    {
+      "type": "E-Commerce",
+      "title": "US Med Premium",
+      "summary": "E-commerce platform for health products with optimized catalog, secure checkout, subscriptions, and accessibility-focused UI.",
+      "tech": "Next.js, TypeScript, Tailwind, Stripe"
+    },
+    {
+      "type": "Mobile App",
+      "title": "FoodClub",
+      "summary": "Multi-restaurant ordering app with restaurant admin dashboard to manage menus, orders, and promotions.",
+      "tech": "React Native, Node.js, MongoDB"
+    },
+    {
+      "type": "Personal Project",
+      "title": "MCP Server — LLM Tool Integration",
+      "summary": "Model Context Protocol server for registering tools and routing LLM requests to external services, designed for extensible plugin-style integrations.",
+      "tech": "Python, FastAPI, Websockets"
+    },
+    {
+      "type": "Document AI",
+      "title": "Quantadoc",
+      "summary": "Document AI platform with semantic retrieval and interactive frontend for enterprise workflows, including ingestion pipelines and QA tooling.",
+      "tech": "FastAPI, PostgreSQL, Vector DB, React"
+    }
+  ]
 }

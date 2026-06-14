@@ -62,7 +62,7 @@ function NavBar() {
           </a>
           <button
             onClick={handleToggle}
-            className="flex items-center justify-center rounded-full p-1.5 border border-dark/10 dark:border-darkColor/20"
+            className="flex items-center justify-center rounded-full p-1.5 border border-dark/10 dark:border-darkColor/20 text-lightColor dark:text-darkColor"
             aria-label="Toggle theme"
           >
             {mode === "dark" ? <SunIcon className="w-4 h-4" /> : <MoonIcon className="w-4 h-4" />}
@@ -80,7 +80,7 @@ function NavBar() {
           <nav className="flex items-center justify-center gap-4">
             <a href={personal.github} target="_blank" rel="noreferrer"><GithubIcon mode={mode} /></a>
             <a href={personal.linkedin} target="_blank" rel="noreferrer"><LinkedInIcon /></a>
-            <button onClick={handleToggle} className="rounded-full p-1.5 border border-darkColor/20">
+            <button onClick={handleToggle} className="rounded-full p-1.5 border border-darkColor/20 text-lightColor dark:text-darkColor">
               {mode === "dark" ? <SunIcon /> : <MoonIcon />}
             </button>
           </nav>
